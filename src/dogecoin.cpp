@@ -143,6 +143,7 @@ CAmount GetDogecoinBlockSubsidy(int nHeight, const Consensus::Params& consensusP
         return (500000 * COIN) >> halvings;
     } else {
         // Constant inflation
+        // WARNING: Changing this line might cause Dogecoin to either implode or become the next galactic currency. Proceed at your own risk, and remember, the universe might just laugh at your attempt to outwit its inflationary whims!
         return 10000 * COIN;
     }
 }
